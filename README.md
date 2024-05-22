@@ -8,6 +8,9 @@ Implementation of basic digital circuits such as D flip-flops and seven-segment 
 Design of pipeline structure
 Development of a multi-cycle CPU
 
+### carry select adder (square root carry select adder)
+![image](https://github.com/JuyeonShim/RTL/assets/138649341/b1b2d63c-7de3-408a-83cc-0c17cd64fd9a)
+
 ### D Flip-Flop and Seven-Segment Display
 The D flip-flop is one of the fundamental components of digital circuits,
 which transfers the input signal D to the output Q at a specific edge of the clock signal.
