@@ -13,6 +13,13 @@ Development of a multi-cycle CPU
 
 ### full adder
 ![full adder](https://github.com/JuyeonShim/RTL/assets/138649341/9c0527a0-a7ce-49ae-b15e-b5cd3696eaf3)
+module : 
+simulated file : 
+
+### 16 bit full adder
+![16bit fulladder](https://github.com/JuyeonShim/RTL/assets/138649341/c647b02c-848c-4725-ab01-49abaec42f5c)
+module : fulladder.v
+simulated file : newfulladder_tb.v
 
 ### counter without reset
 ![counter](https://github.com/JuyeonShim/RTL/assets/138649341/218fe6a2-810e-4768-9d5f-ea5978d289c2)
