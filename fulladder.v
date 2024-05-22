@@ -1,15 +1,9 @@
-module fulladder(a, b, c_in, s, c_out);
-    input a, b, c_in;
-    output s, c_out;
+module fulladder(a, b, s, c_in, c_out);
+    input [15:0] a, b;
+    input c_in;
+    output [15:0] s;
+    output c_out;
 
-
-wire s1, c1, s2;
-
-xor(s1, a, b);
-
-xor(s, s1, c_in);
-and(c1, a, b);
-and(s2, s1, c_in);
-xor(c_out, s2, c1);
+assign {c_out, s[15:0]} = a[15:0] + b[15:0] + c_in;
 
 endmodule
