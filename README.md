@@ -8,6 +8,19 @@ Implementation of basic digital circuits such as D flip-flops and seven-segment 
 Design of pipeline structure
 Development of a multi-cycle CPU
 
+### 8 to 1 multiplexer
+![8to1mux](https://github.com/JuyeonShim/RTL/assets/138649341/732cbe0a-a948-464c-97ff-fb6f8774cb27)
+
+### full adder
+![full adder](https://github.com/JuyeonShim/RTL/assets/138649341/9c0527a0-a7ce-49ae-b15e-b5cd3696eaf3)
+
+### counter without reset
+![counter](https://github.com/JuyeonShim/RTL/assets/138649341/218fe6a2-810e-4768-9d5f-ea5978d289c2)
+
+### counter with reset
+![counter_rst](https://github.com/JuyeonShim/RTL/assets/138649341/5adba0b0-916d-4887-b6d8-276a4c6aa2e5)
+
+
 ### D Flip-Flop and Seven-Segment Display
 The D flip-flop is one of the fundamental components of digital circuits,
 which transfers the input signal D to the output Q at a specific edge of the clock signal.
